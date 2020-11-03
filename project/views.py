@@ -2,8 +2,6 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def count(request):
-    return (request,'project/count.html')
 
 def latern(request):
     return render (request,'project/latern.html')
