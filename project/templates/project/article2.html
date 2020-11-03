@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Where it begin..</title>
+<meta name="description" content="Thoughts, reviews and ideas since 1999."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" type="text/css" href="{% static 'project/screen.css' %}"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
+</head>
+<body class="post-template">
+<div class="site-wrapper">
+	<nav class="main-nav overlay clearfix">
+	<a class="blog-logo" href="{% url 'article1' %}"></a>
+	<ul id="menu">
+		<li class="nav-home nav-current" role="presentation"><a href="{% url 'article1' %}">Home</a></li>
+	</ul>
+	</nav>
+	<header class="main-header post-head " style="background-image: url({% static 'project/images/random.jpg' %})">
+	<div class="vertical">
+		<div class="main-header-content inner">
+			<h1 class="post-title">It's all about you!</h1>
+			<div class="entry-title-divider">
+				<span></span><span></span><span></span>
+			</div>
+		</div>
+	</div>
+	</header>
+	<main id="content" class="content" role="main">
+	<div class="wraps">
+		<img src="{% static 'project/images/shadow.png' %}" class="wrapshadow">
+		<article class="post featured">
+		<section class="post-content">
+		<p>
+			I knew you by your name when you registered for the workshop. That was the time when I got your number(Not an easy task for me to get the number of a girl lol).
+What I didnt know was that you were quite famous person in the campus.
+		</p>
+		<p>
+			<em>One day by mistake or I dont know (purposely) you send me some videos of your friends having fun. I was damned at that moment didnt know what was that. You asked me to delete those to which I replied that you people dance well (LOL I remember what I replied) then my friend talked to you and apparently you yelled at him (he was shocked ) and I snatched  the phone from him and asked for forgiveness.
+				*Titled earned - Batmeez ;)</em>
+		</p>
+		<p>
+			<strong>PS- I deleted that videos when you told. I was just playing with you. </strong>
+		</p>
+		<p>
+			And then I came to know that you were in my class. I was like FUCK there goes my reputation cause I have already messed up. 
+		</p>
+		<p>
+HUH... then time passed and we enjoyed our own life. I was high and bored most of the times so I dont remember much.
+
+Then finally came the month of feb when we planned for the epic trip to george. 
+I seriously didnt know that you or any other girl would be interested in planning a trip with people like us. BUT IT HAPPENED.
+		</p>
+		<header class="post-header">
+			<h2 class="post-title"><a href="{% url 'article3' %}">Continue..</a></h2>
+			</header>
+		</section>
+		</article>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/js/masonry.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
